@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap Portfolio Template</title>
+        <meta name="description" content="Simple portfolio template built with Bootstrap and HTML5 Boilerplate">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" href="favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <nav class="navbar">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="./">Portfolio Template</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="./">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <div class="container-fluid text-center">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <h1>Hello, welcome to my portfolio!</h1>
+                        <p class="lead">
+                            I'm designing websites since 2007. Also I'm involved in front-end &amp; back-end development as well. I'm all about web technologies and stuff.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid filterable-portfolio">
+
+            <!-- Portfolio navigation -->
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills portfolio-filter">
+                        <li class="portfolio-title">Filter By:</li>
+                        <li role="presentation" class="active" data-filter="*"><a href="#">All</a></li>
+                        <li role="presentation"><a href="#" data-filter=".branding">Branding</a></li>
+                        <li role="presentation"><a href="#" data-filter=".photography">Photography</a></li>
+                        <li role="presentation"><a href="#" data-filter=".logo">Logo</a></li>
+                        <li role="presentation"><a href="#" data-filter=".web">Web</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Portfolio items -->
+            <div class="row portfolio-items">
+                <figure class="portfolio-item col-md-4 branding web">
+                    <a href="#"><img src="http://placekitten.com/720/410" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 photography">
+                    <a href="#"><img src="http://placekitten.com/700/400" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 branding">
+                    <a href="#"><img src="http://placekitten.com/610/350" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 photography">
+                    <a href="#"><img src="http://placekitten.com/610/350" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 logo web">
+                    <a href="#"><img src="http://placekitten.com/700/400" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 branding">
+                    <a href="#"><img src="http://placekitten.com/720/410" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+            </div>
+
+        </div>
+        
+        <div class="container-fluid site-footer text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 555.555.5555
+                    </p>
+                    <p>
+                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> john@doe.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
