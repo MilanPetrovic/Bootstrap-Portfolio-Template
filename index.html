@@ -58,11 +58,65 @@
                 </div>
             </div>
         </div>
+
+        <div class="container-fluid filterable-portfolio">
+
+            <!-- Portfolio navigation -->
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills portfolio-filter">
+                        <li class="portfolio-title">Filter By:</li>
+                        <li role="presentation" class="active" data-filter="*"><a href="#">All</a></li>
+                        <li role="presentation"><a href="#" data-filter=".branding">Branding</a></li>
+                        <li role="presentation"><a href="#" data-filter=".photography">Photography</a></li>
+                        <li role="presentation"><a href="#" data-filter=".logo">Logo</a></li>
+                        <li role="presentation"><a href="#" data-filter=".web">Web</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Portfolio items -->
+            <div class="row portfolio-items">
+                <figure class="portfolio-item col-md-4 branding web">
+                    <a href="#"><img src="http://placekitten.com/720/410" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 photography">
+                    <a href="#"><img src="http://placekitten.com/700/400" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 branding">
+                    <a href="#"><img src="http://placekitten.com/610/350" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 photography">
+                    <a href="#"><img src="http://placekitten.com/610/350" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 logo web">
+                    <a href="#"><img src="http://placekitten.com/700/400" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+                <figure class="portfolio-item col-md-4 branding">
+                    <a href="#"><img src="http://placekitten.com/720/410" alt="Placeholder image" class="img-responsive"></a>
+                </figure>
+            </div>
+
+        </div>
         
+        <div class="container-fluid site-footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        <span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 555.555.5555
+                    </p>
+                    <p>
+                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> john@doe.com
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
     </body>
