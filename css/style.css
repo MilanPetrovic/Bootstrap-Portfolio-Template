@@ -223,6 +223,15 @@ figure {
 	filter: grayscale(30%);
 }
 
+/* Contact Form Styles */
+.contact-form {
+	background: #111;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 5px;
+	margin-bottom: 3em;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
 	.navbar-collapse {
